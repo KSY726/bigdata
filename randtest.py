@@ -7,7 +7,7 @@ import random
 print(random.random())
 
 
-menu = '치킨', '피자', '분식', '중식'
+menu = ['치킨', '피자', '분식', '중식']
 print(random.choice(menu))
 
 import requests
